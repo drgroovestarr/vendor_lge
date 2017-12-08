@@ -17,9 +17,9 @@ $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
+    CNEService \
     CarrierServices \
     CarrierSetup \
-    CNEService \
     ConnMO \
     datastatusnotification \
     DCMO \
